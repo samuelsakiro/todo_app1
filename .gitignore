@@ -1,3 +1,35 @@
+
+# Ignore build directories for Flutter (these are auto-generated during build)
+build/
+
+# Ignore Android native files and Gradle files
+.android/
+ios/
+
+# Ignore all IDE and editor settings
+.idea/
+.vscode/
+*.iml
+
+# Ignore Flutter/Dart-specific files that don't need to be tracked
+.dart_tool/
+.packages
+
+# Ignore logs
+*.log
+
+# Ignore package-specific files
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Ignore any generated files related to flutter (for example, in macOS, Windows, or Linux if you're building for those platforms)
+macos/
+windows/
+linux/
+
+# Ignore pubspec.lock file (Optional, but some prefer not to commit it)
+# pubspec.lock
+
 # Miscellaneous
 *.class
 *.log
